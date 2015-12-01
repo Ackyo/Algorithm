@@ -1,0 +1,2 @@
+Operations about Strings.
+
