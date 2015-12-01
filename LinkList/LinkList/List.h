@@ -27,3 +27,13 @@ int GetLinkListLength(LinkList pHead);
 void DestroyLinkList(LinkList* pHead);
 
 void RemoveDuplicatedElemFromUnsortedLinkList(LinkList pHead);
+
+LinkList DivideTo2LinkList(LinkList pHead);
+LinkList Merge(LinkList pHead1, LinkList pHead2);
+void MergeSortLinkList(LinkList* ppHead);
+
+void QuickSortLinkList(LinkList pHead);
+LNode* FindPrior(LinkList pHead, LNode* ptr);
+void SwapLinkListValue(LNode* p,LNode* q);
+LNode* PartitionLinkList(LinkList pHead, LNode* pTail);
+void QuickSortCore(LinkList pHead, LNode* pTail);

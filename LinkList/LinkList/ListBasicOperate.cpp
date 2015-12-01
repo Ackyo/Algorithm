@@ -79,7 +79,7 @@ void PrintLinkList(LinkList pHead)
         return;
     }
     LNode* ptrNode=pHead;
-    while (ptrNode)
+    while (ptrNode!=NULL)
     {
         printf("%d->",ptrNode->value);
         ptrNode=ptrNode->next;
